@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover"> -->
+    <!-- <meta name="color-scheme" content="light dark"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Diálogo</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="card text-center">
+            <div class="card-header">
+                <h1>Cuadros de Diálogo</h1>
+            </div>
+            <div class="card-body">
+                <div id="dialogo" class="blink">
+                    <h2 class="card-title">Selecciona una opción</h2><br>
+                    <button type="button" class="btn btn-danger btn-lg" id="alert">Alert</button>
+                    <button type="button" class="btn btn-success btn-lg" id="confirm">Confirm</button>
+                    <button type="button" class="btn btn-warning btn-lg" id="prompt">Prompt</button>
+                </div>
+            </div>
+            <div class="card-footer text-muted">
+                Adrián Garrido Pantaleón 21/22
+            </div>
+        </div>
+        <a href="index.html"><input type="button" id="atras" class="btn btn-dark btn-lg"
+            style="margin-top: 75px; margin-left: 25px;" value="Volver Atrás"></a><br>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/dialogo.js"></script>
+</body>
+
+</html>

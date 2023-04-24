@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover"> -->
+    <!-- <meta name="color-scheme" content="light dark"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Info</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="card text-center">
+            <div class="card-header">
+                <h1>Información del Dispositivo</h1>
+            </div>
+            <div class="card-body">
+                <div id="dispositivo" class="blink">
+                    <table>
+                        <tr>
+                            <td>Cordova Version</td>
+                            <td>
+                                <p id="version"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Device Model</td>
+                            <td>
+                                <p id="model"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Platform</td>
+                            <td>
+                                <p id="platform"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>UUID</td>
+                            <td>
+                                <p id="uuid"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Android Version</td>
+                            <td>
+                                <p id="androidVersion"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manufacturer</td>
+                            <td>
+                                <p id="manufacturer"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Is Virtual</td>
+                            <td>
+                                <p id="isVirtual"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Serial Number</td>
+                            <td>
+                                <p id="serialNo"></p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            <div class="card-footer text-muted">
+                Adrián Garrido Pantaleón 21/22
+            </div>
+        </div>
+        <a href="index.html"><input type="button" id="atras" class="btn btn-dark btn-lg"
+                style="margin-top: 75px; margin-left: 25px;" value="Volver Atrás"></a><br>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/info.js"></script>
+</body>
+
+</html>

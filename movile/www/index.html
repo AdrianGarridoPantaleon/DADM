@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover"> -->
+    <!-- <meta name="color-scheme" content="light dark"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+    <title>Movile Info</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="card text-center">
+            <div class="card-header">
+                <h1>DADM - Phonegap</h1>
+            </div>
+            <div class="card-body">
+                <div id="deviceready" class="blink">
+                    <h2 class="card-title">Selecciona una opción</h2><br>
+
+                    <a href="estados.html"><input type="button" class="btn btn-warning btn-lg"
+                            style="margin-bottom: 10px;" value="Estado de la Red"></a><br>
+                    <a href="info.html"><input type="button" class="btn btn-primary btn-lg" style="margin-bottom: 10px;"
+                            value="Info. del Dispositivo"></a><br>
+                    <a href="dialogo.html"><input type="button" class="btn btn-success btn-lg"
+                            value="Cuadros de Diálogo"></a>
+
+                </div>
+            </div>
+            <div class="card-footer text-muted">
+                Adrián Garrido Pantaleón 21/22
+            </div>
+        </div>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
